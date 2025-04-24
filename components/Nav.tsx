@@ -54,15 +54,15 @@ export default function Nav() {
           </Avatar>
         </div>
         <h1 className="text-[42px] font-bold lg:text-start">
-          Hi, i&#39;m Alexander 👋
+          Hi, i&#39;m Amirxon 👋
         </h1>
         <h2 className="text-xl lg:text-start">
-          Product designer, developer, founder.
+          Frontend Developer | Web3 & AI Specialist
         </h2>
         <p className="text-lg lg:text-start text-muted-foreground">
-          I help innovative startups in AI, Web3, and Finance craft exceptional
-          user experiences, translating complex technologies into intuitive
-          interfaces that resonate with humans.
+          I create user-friendly, fast, and modern web interfaces. I work with
+          JavaScript/React and Web3 technologies, and support AI
+          integrations.
         </p>
       </div>
       <nav className="lg:flex hidden">
