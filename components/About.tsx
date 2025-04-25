@@ -14,7 +14,7 @@ export default function About() {
           <span className="text-white">
             I transform complex technologies into intuitive interfaces.
           </span>{" "}
-          Specializing at the intersection of Web3, AI, and Finance, I build
+          Specializing at the intersection of Web3, and Finance, I build
           accessible frontend solutions that bridge users with cutting-edge
           technologies.
         </p>
@@ -22,14 +22,7 @@ export default function About() {
           Currently, I'm developing frontend architectures for a stealth AI
           startup revolutionizing financial interactions. As a core contributor
           at{" "}
-          <a
-            className="no-wrap text-primary dark:text-white"
-            href="https://vela.exchange"
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            Vela Exchange
-          </a>
+         
           , I implement Web3 integrations for this decentralized perpetual
           trading platform. Previously at{" "}
           <a
