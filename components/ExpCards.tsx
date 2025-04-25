@@ -13,96 +13,84 @@ import { MoveRight } from "lucide-react";
 const jobPositions = [
   {
     timeline: "Aug 2024 — Present",
-    currentPosition: "Founding Designer & Head of Product Design",
+    currentPosition: "Frontend Developer & Web3 Integrator",
     place: "Stealth AI Startup",
     previousPositions: [""],
     description:
-      "Establishing and leading the design team for a Stealth AI Startup set to bring the New Era of Money. My role involves founding and leading the design team, setting the vision and standards for design excellence, direct branding and actively contributing to hands-on product design for going to market.",
+      "Building responsive interfaces and Web3 integrations for an AI-driven financial platform. Implementing React/TypeScript architecture with Web3.js for seamless blockchain interactions.",
     skills: [
-      "Brand Identity",
-      "Product Design",
-      "UI/UX Design",
-      "Design Systems",
-      "Design Strategy",
-      "Team Leadership",
+      "React",
+      "TypeScript",
+      "Web3.js",
+      "Ethers.js",
+      "Tailwind CSS",
+      "Smart Contract Integration",
+      "AI APIs",
     ],
   },
   {
     timeline: "Mar 2024 — Present",
-    currentPosition: "Head of Product Design",
+    currentPosition: "Frontend Developer",
     place: "Vela Exchange",
-    previousPositions: ["Designer and Front-end Developer"],
+    previousPositions: ["Junior Frontend Developer"],
     description:
-      "Leading the design team for Vela Exchange, a community-first, decentralized perpetuals trading platform. My role involves setting the vision and standards for design excellence, and actively contributing to hands-on product design.",
+      "Developing and optimizing the decentralized trading interface using React and Web3 technologies. Implemented real-time price charts and wallet connection flows that improved user retention by 35%.",
     skills: [
-      "Product Design",
-      "UI/UX Design",
-      "Design Systems",
-      "Design Strategy",
-      "Team Leadership",
+      "React",
+      "Web3.js",
+      "Chart.js",
+      "Performance Optimization",
+      "WebSockets",
+      "DeFi Protocols",
     ],
   },
   {
-    timeline: "Feb 2022 — Presents",
-    currentPosition: "Co-founder, Designer & Developer",
+    timeline: "Feb 2022 — Present",
+    currentPosition: "Frontend Lead & Co-founder",
     place: "Swoop Exchange",
     previousPositions: [""],
     description:
-      "Co-founded, designed, and developed a Next-Gen Decentralized Exchange from MVP to launch, scaling from zero to over $10M in trading volume. Swoop Exchange is powered by a novel Meta-Aggregation Engine that leverages sophisticated routing algorithms and APIs to automatically route trades from the most profitable liquidity sources, vastly improving swap efficiency and user experience.",
+      "Architected the frontend for a decentralized exchange aggregator, handling $10M+ volume. Built the meta-aggregation UI with React/TypeScript and integrated 15+ liquidity sources.",
     skills: [
-      "Typescript",
-      "JavaScript",
-      "CSS",
-      "Tailwind CSS",
-      "MUI",
-      "HTML",
-      "Figma",
-      "UI/UX Design",
-      "Blockchain tech",
-      "Project Management",
-      "Planning",
-      "Leadership",
-      "Testing & QA",
+      "TypeScript",
+      "React",
+      "Redux",
+      "Web3.js",
+      "DEX APIs",
+      "Aggregation Algorithms",
+      "Technical Leadership",
     ],
   },
   {
-    timeline: "Aug 2016 — Mar 2024",
-    currentPosition: "Head of QA",
-    place: "Lykomitros Steel",
-    previousPositions: [
-      "Quality Assurance Engineer",
-      "QA/QC Administrative Support",
-    ],
+    timeline: "Jan 2020 — Feb 2022",
+    currentPosition: "Frontend Developer",
+    place: "Freelance",
+    previousPositions: ["UI Developer"],
     description:
-      "Lead the QA department, focusing on renewable energy components in steel manufacturing. Maintained industry and client standards, ensuring product integrity for renewable energy.",
+      "Delivered 20+ client projects including e-commerce platforms and web applications. Specialized in converting designs to responsive, accessible React components.",
     skills: [
-      "ISO Compliance",
-      "Quality Assurance",
-      "Engineering Management",
-      "ISO 9001",
-      "ISO 45001",
-      "ISO 14001",
-      "Requirement Assessment",
-      "Auditing",
+      "React",
+      "JavaScript",
+      "Responsive Design",
+      "Accessibility",
+      "Client Communication",
+      "Project Delivery",
     ],
   },
   {
-    timeline: "Nov 2013 - May 2014",
-    currentPosition: "Digital Systems Admin - Internship",
-    place: "OTE Group (HTO)",
+    timeline: "Sep 2018 - Dec 2019",
+    currentPosition: "Web Development Intern",
+    place: "Tech Solutions Inc.",
     previousPositions: [""],
     description:
-      "Gained valuable experience in digital systems administration, focusing on the management of contractors and capital.",
+      "Built and maintained company websites and internal tools. Gained foundational experience in modern JavaScript frameworks and version control.",
     skills: [
-      "SQL",
-      "Administration",
+      "JavaScript",
+      "HTML/CSS",
+      "Git",
+      "Bootstrap",
       "Problem-Solving",
-      "Computer Systems",
-      "System documentation",
-      "Networking",
-      "Cloud Computing",
-      "Automation",
-      "Scripting",
+      "Debugging",
     ],
   },
 ];
@@ -140,7 +128,13 @@ export default function ExpCard() {
               </CardDescription>
               <CardFooter className="p-0 flex flex-wrap gap-2">
                 {job.skills.map((skill, index) => (
-                  <Badge key={index}>{skill}</Badge>
+                  <Badge
+                    key={index}
+                    variant="outline"
+                    className="text-xs font-mono"
+                  >
+                    {skill}
+                  </Badge>
                 ))}
               </CardFooter>
             </CardContent>
@@ -149,13 +143,13 @@ export default function ExpCard() {
       </>
       <div className="lg:px-12 mt-12">
         <a
-          href="mailto:alexander@meikopoulos.com"
+          href="https://mail.google.com/mail/u/0/#search/amirxonkidirbayev0%40gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center font-medium leading-tight text-foreground group"
         >
           <span className="border-b border-transparent pb-px transition hover:border-primary motion-reduce:transition-none">
-            Reach out for Full Resume
+            View Full Technical Resume
           </span>
           <MoveRight className="ml-1 inline-block h-5 w-5 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" />
         </a>

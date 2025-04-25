@@ -7,32 +7,34 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://meikopoulos.com"),
+  metadataBase: new URL("https://yourdomain.com"), // Haqiqiy domeningiz bilan almashtiring
   alternates: {
-    canonical: "https://meikopoulos.com",
+    canonical: "https://yourdomain.com", //Haqiqiy domeningiz bilan almashtiring
   },
-  title: "Alexander Meikopoulos - Product Designer in AI, Web3, and Finance",
+  title: "Amirxon - Frontend Developer in Web3, AI, and Finance",
   description:
-    "Alexander Meikopoulos is a Product designer, developer & founder.",
+    "Amirxon is a Frontend Developer specializing in Web3, AI interfaces and financial applications.",
   keywords:
-    "Alexander Meikopoulos, Product Designer, AI, Web3, Finance, User Experience, UI/UX Design, Design Systems, Front-end Development, Decentralized Finance, DeFi, Swoop Exchange, Vela Exchange, Stealth AI Startup, Technology, Innovation, Human-Centered Design",
+    "Amirxon, Frontend Developer, Web3 Developer, AI Interfaces, JavaScript, React, Vue.js, TypeScript, DeFi, Decentralized Finance, Vela Exchange, Swoop Exchange, Web3.js, Ethers.js, Smart Contract Integration, UI/UX Development, Financial Technology",
   openGraph: {
     locale: "en_US",
-    siteName: "Alexander Meikopoulos",
+    siteName: "Amirxon",
     type: "website",
-    title: "Alexander Meikopoulos",
+    title: "Amirxon - Frontend Developer",
     description:
-      "Alexander Meikopoulos is a Product designer, developer & founder.",
-    url: "https://meikopoulos.com",
+      "Specializing in Web3, AI and financial interfaces with focus on intuitive user experiences",
+    url: "https://yourdomain.com", // Haqiqiy domeningiz bilan almashtiring
     images: [
       {
-        url: "./og-large-meik-2.jpg",
+        url: "./og-image.jpg", // Haqiqiy OG tasvir yo'li bilan almashtiring
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alexander Meikopoulos",
+    title: "Amirxon - Frontend & Web3 Developer",
+    description: "Building intuitive interfaces for Web3 and AI applications",
+    // Agar sizda mavjud bo'lsa, twitter:creator-ni o'z qo'lingiz bilan qo'shishingiz mumki
   },
 };
 
