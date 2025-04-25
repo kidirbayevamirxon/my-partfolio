@@ -15,8 +15,8 @@ export default function Contact() {
           Get In Touch
         </h2>
         <p className="lg:text-lg lg:text-start text-muted-foreground">
-          If you're considering my contribution, have a question, or just want to say hi, 
-          I'd love to hear from you! Feel free to reach out through any of these channels.
+          If you&#39;re considering my contribution, have a question, or just want to say hi, 
+          I&#39;d love to hear from you! Feel free to reach out through any of these channels.
         </p>
       </div>
       <div className="flex flex-row justify-center items-center gap-4 lg:px-6 mb-4">
@@ -60,14 +60,14 @@ export default function Contact() {
         <div>
           <h3 className="text-xl font-semibold mb-2">Social Media</h3>
           <div className="flex gap-4">
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">  {/* Replace */}
-              <Linkedin className="h-6 w-6" />  {/* Need to import Linkedin icon */}
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener"> 
+              <Linkedin className="h-6 w-6" /> 
             </a>
             <a href="https://github.com/yourusername" target="_blank" rel="noopener">  {/* Replace */}
-              <Github className="h-6 w-6" />  {/* Need to import Github icon */}
+              <Github className="h-6 w-6" />  
             </a>
             <a href="https://t.me/yourusername" target="_blank" rel="noopener">  {/* Replace */}
-              <MessageCircle className="h-6 w-6" />  {/* Need to import MessageCircle or Telegram icon */}
+              <MessageCircle className="h-6 w-6" /> 
             </a>
           </div>
         </div>

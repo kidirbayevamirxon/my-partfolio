@@ -57,7 +57,7 @@ export default function Nav() {
 
         <div className="space-y-2">
           <h1 className="text-[42px] font-bold lg:text-start">
-            Hi, I'm Amirxon 👋
+            Hi, I&#39;m Amirxon 👋
           </h1>
           <h2 className="text-xl lg:text-start bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
             Frontend Developer | Web3 & AI Specialist
