@@ -1,7 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Mail, MessageCircleIcon } from "lucide-react";
 import { ModeToggle } from "./ui/toggle-mode";
 import useActiveSection from "@/hooks/useActiveSection";
 
@@ -107,7 +107,7 @@ export default function Nav() {
       <ul className="flex flex-row gap-4 mt-6 lg:mt-0">
         <Button variant="outline" size="icon" asChild>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/kidirbayevamirxon"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -117,17 +117,17 @@ export default function Nav() {
         </Button>
         <Button variant="outline" size="icon" asChild>
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://web.telegram.org/k/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
           >
-            <Linkedin className="h-[1.2rem] w-[1.2rem]" />
+            <MessageCircleIcon className="h-[1.2rem] w-[1.2rem]" />
           </a>
         </Button>
         <Button variant="outline" size="icon" asChild>
           <a
-            href="mailto:your.email@example.com"
+            href="https://mail.google.com/mail/u/0/#search/amirxonkidirbayev0%40gmail.com?compose=new"
             aria-label="Email"
           >
             <Mail className="h-[1.2rem] w-[1.2rem]" />

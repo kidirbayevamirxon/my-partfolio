@@ -24,17 +24,7 @@ export default function About() {
           at{" "}
          
           , I implement Web3 integrations for this decentralized perpetual
-          trading platform. Previously at{" "}
-          <a
-            className="no-wrap text-primary dark:text-white"
-            href="https://swoop.exchange"
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            Swoop Exchange
-          </a>
-          , I engineered the frontend for a meta-aggregation engine serving
-          thousands of daily users.
+          trading platform.
         </p>
         <p className="text-start text-muted-foreground lg:px-6">
           My work has supported systems processing billions in transaction

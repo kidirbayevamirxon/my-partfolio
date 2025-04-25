@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import {
   Card,
@@ -12,79 +11,46 @@ import { MoveUpRight } from "lucide-react";
 
 const jobProjects = [
   {
-    imagePath: "/vela-exchange.webp",
-    title: "Vela Exchange - Frontend Development",
+    imagePath: "/image.png", 
+    title: "SocialApp - Frontend Development",
     description:
-      "Developed the trading interface and Web3 integrations for this decentralized perpetuals platform. Implemented real-time price charts, order book visualization, and wallet connection flows using React, TypeScript, and Web3.js.",
+      "This site was built using JavaScript/React, Tailwind CSS. It's similar to Instagram. It doesn't have as many features yet.",
     skills: [
       "React",
-      "TypeScript",
+      "JavaScript",
       "Web3.js",
-      "Chart.js",
       "Tailwind CSS",
       "WebSocket",
-      "DEX APIs",
     ],
-    link: "https://vela.exchange",
+    link: "http://localhost:5174/",
   },
   {
-    imagePath: "/defi-dashboard.webp",
-    title: "DeFi Portfolio Dashboard",
+    imagePath: "/Helthy.png",
+    title: "Automated registration for hospital",
     description:
-      "Built a comprehensive dashboard aggregating users' cross-chain DeFi positions. Features include portfolio tracking, yield analytics, and transaction history across 10+ chains. Integrated with Moralis API for blockchain data.",
+      "The director can monitor the work process. The salary is determined based on the work of the employees. It speeds up the registration process. We worked on this with our team.",
     skills: [
-      "Next.js",
-      "Ethers.js",
+      "TaypScript",
       "Moralis API",
-      "Chart.js",
+      "React",
       "Tailwind CSS",
       "Web3 Auth",
     ],
-    link: "https://github.com/yourusername/defi-dashboard",
+    link: "https://github.com/coderxuz/med-hub-front.git",
   },
   {
-    imagePath: "/swoop-exchange.webp",
-    title: "Swoop Exchange - Frontend Architecture",
+    imagePath: "/ReactRouter.png",
+    title: "React Router - Frontend Architecture",
     description:
-      "Led frontend development for this DEX aggregator handling $10M+ monthly volume. Implemented the meta-aggregation UI with React/TypeScript, integrating 15+ liquidity sources. Optimized swap interface reduced failed transactions by 40%.",
+      "I have nothing to say about it. I worked on this to improve my experience.",
     skills: [
       "React",
-      "TypeScript",
+      "JavaScript",
       "Web3.js",
       "DEX Aggregation",
       "Performance Optimization",
-      "Jest Testing",
     ],
-    link: "https://swoop.exchange",
-  },
-  {
-    imagePath: "/nft-marketplace.webp",
-    title: "NFT Marketplace Prototype",
-    description:
-      "Developed a responsive NFT marketplace with lazy loading, collection filtering, and Web3 wallet integration. Implemented custom hooks for efficient blockchain data fetching and caching.",
-    skills: [
-      "Next.js",
-      "Ethers.js",
-      "IPFS",
-      "SWR",
-      "NFT APIs",
-      "Responsive Design",
-    ],
-    link: "https://github.com/yourusername/nft-marketplace",
-  },
-  {
-    imagePath: "/portfolio.webp",
-    title: "Developer Portfolio",
-    description:
-      "My personal portfolio website showcasing projects and skills. Built with Next.js, Tailwind CSS, and Shadcn/ui components. Features dark/light mode and responsive design.",
-    skills: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "Shadcn/ui",
-      "Vercel Hosting",
-    ],
-    link: "https://github.com/yourusername/portfolio",
+    link: "http://localhost:5173/",
   },
 ];
 
