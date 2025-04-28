@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="flex flex-col gap-4 lg:px-6 mt-16">
         <p className="text-sm text-start text-muted-foreground">
           Based on{" "}
-          <a className="text-foreground" href="https://brittanychiang.com">
+          <a className="text-foreground" href="https://my-partfolio-eight.vercel.app/">
             Amirxon Kidirbaev website
           </a>{" "}
           (they awesome). Coded in{" "}

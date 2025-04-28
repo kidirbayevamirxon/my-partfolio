@@ -1,5 +1,5 @@
 "use client";
-import { Mail, Phone, MapPin, Linkedin, Github, MessageCircle } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Github, MessageCircle, Instagram } from "lucide-react";
 import { Button } from "./ui/button";
 
 export default function Contact() {
@@ -61,7 +61,7 @@ export default function Contact() {
           <h3 className="text-xl font-semibold mb-2">Social Media</h3>
           <div className="flex gap-4">
             <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener"> 
-              <Linkedin className="h-6 w-6" /> 
+              <Instagram className="h-6 w-6" /> 
             </a>
             <a href="https://github.com/yourusername" target="_blank" rel="noopener">  {/* Replace */}
               <Github className="h-6 w-6" />  
