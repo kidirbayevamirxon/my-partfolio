@@ -63,10 +63,10 @@ export default function Contact() {
             <a href="https://www.instagram.com/kidirbayevamirxon/" target="_blank" rel="noopener"> 
               <Instagram className="h-6 w-6" /> 
             </a>
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener"> 
+            <a href="https://github.com/kidirbayevamirxon" target="_blank" rel="noopener"> 
               <Github className="h-6 w-6" />  
             </a>
-            <a href="https://t.me/yourusername" target="_blank" rel="noopener"> 
+            <a href="hhttps://web.telegram.org/k/?account=2" target="_blank" rel="noopener"> 
               <MessageCircle className="h-6 w-6" /> 
             </a>
           </div>
