@@ -60,7 +60,7 @@ export default function Contact() {
         <div>
           <h3 className="text-xl font-semibold mb-2">Social Media</h3>
           <div className="flex gap-4">
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener"> 
+            <a href="https://www.instagram.com/kidirbayevamirxon/" target="_blank" rel="noopener"> 
               <Instagram className="h-6 w-6" /> 
             </a>
             <a href="https://github.com/yourusername" target="_blank" rel="noopener"> 
