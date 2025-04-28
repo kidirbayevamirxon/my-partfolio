@@ -66,7 +66,7 @@ export default function Contact() {
             <a href="https://github.com/kidirbayevamirxon" target="_blank" rel="noopener"> 
               <Github className="h-6 w-6" />  
             </a>
-            <a href="https://web.telegram.org/k/?account=2" target="_blank" rel="noopener"> 
+            <a href="https://web.telegram.org/k/#@A170709" target="_blank" rel="noopener"> 
               <MessageCircle className="h-6 w-6" /> 
             </a>
           </div>
